@@ -1,4 +1,4 @@
-FROM alpine
+FROM docker.io/alpine:3.6
 
 RUN apk add --no-cache lsyncd rsync openssh-client
 
